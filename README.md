@@ -1,4 +1,4 @@
-#Text Processing with MeTA
+# Text Processing with MeTA
 
 This code is part of the assignment on Text Information Systems course at the University of Illinois at Urbana-Champaign
 
