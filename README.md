@@ -1,9 +1,6 @@
-# CS410 MP1 -- Getting Familiar with Text
-Due Sept 15 2019:
+#Text Processing with MeTA
 
-In this assignment, you will perform your first text mining analysis with the MeTA toolkit.
-All MPs are checked on [EWS machines](https://answers.uillinois.edu/illinois.engineering/page.php?id=81727).
-While we cannot ensure that all operating systems and configurations are covered in the instructions, students can connect to these Linux-based workstations to complete assignments.
+This code is part of the assignment on Text Information Systems course at the University of Illinois at Urbana-Champaign
 
 
 ## Setup
@@ -312,9 +309,4 @@ doc.content("I said that I can't believe that it only costs $19.95!")
 print(ana.analyze(doc))
 ```
 
-## Trying it out on your own!
-
-Finally, let's test whether you can do such analysis on your own!
-Inside this repository, you will find `example.py` where we ask you to fill in your code.
-You are required to create a function that tokenizes with ICUTokenizer (without the end/start tags, i.e. use the argument "suppress_tags=True"), lowercases, removes words with less than 2 and more than 5 characters, performs stemming and produces trigrams for an input sentence.
-Once you edit the `example.py` to fill in the function, you can check whether your submission passed the test.
+`example.py` has a function that tokenizes with ICUTokenizer (without the end/start tags, i.e. use the argument "suppress_tags=True"), lowercases, removes words with less than 2 and more than 5 characters, performs stemming and produces trigrams for an input sentence.
